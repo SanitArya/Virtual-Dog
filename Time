@@ -1,0 +1,9 @@
+ if(lastFeedHr>12){
+  text("Feed Time: "+lastFeedHr%12+":"+lastFeedMin+" PM",100,50)
+  }
+  else if(lastFeedHr==0){
+    text("Feed Time: 12"+lastFeedMin+"AM",50,50)
+  }
+  else{
+    text("Feed Time: "+lastFeedHr+":"+lastFeedMin+" AM",110,50)
+  }
